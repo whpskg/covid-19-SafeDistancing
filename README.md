@@ -1,2 +1,2 @@
-# covid-19-SafeGrocery
-Maps app that helps users to grocery safely during pandemic
+# covid-19-SafeDistancing
+Hybrid Mobile geospatial app that helps people to out home with confidence
