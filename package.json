@@ -28,5 +28,18 @@
     "babel-preset-expo": "~8.1.0",
     "@babel/core": "^7.8.6"
   },
-  "private": true
+  "private": true,
+  "name": "covid-19-safedistancing",
+  "description": "Hybrid Mobile geospatial app that helps people to out home with confidence",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whpskg/covid-19-SafeDistancing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whpskg/covid-19-SafeDistancing/issues"
+  },
+  "homepage": "https://github.com/whpskg/covid-19-SafeDistancing#readme"
 }

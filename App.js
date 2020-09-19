@@ -42,25 +42,32 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      coordinates: { lat: 0, lon: 0 },
+      coordinates: { lat: 1, lon: 1 },
       time: new Date().toDateString,
     };
   }
 
   async componentDidMount() {
+    await Location.requestPermissionsAsync();
     await this.getLocation();
 
-    // this.userDocUpdate(
-    //   this.state.coordinates.lat,
-    //   this.state.coordinates.lon,
-    //   this.state.time
-    // );
-    //asyncStorage.removeData("userDoc");
-    // asyncStorage.getData("userDoc").then((data) => {
-    //   console.log(data);
-    // });
-    // let dateValue = new Date().toString();
-    // asyncStorage.storeData({ key: "backGroundDate", value: dateValue });
+    /*
+    **
+    this part is ued for real time location update
+    **
+    this.userDocUpdate(
+      this.state.coordinates.lat,
+      this.state.coordinates.lon,
+      this.state.time
+    );
+    asyncStorage.removeData("userDoc");
+    asyncStorage.getData("userDoc").then((data) => {
+      console.log(data);
+    });
+    let dateValue = new Date().toString();
+    asyncStorage.storeData({ key: "backGroundDate", value: dateValue });
+
+    */
   }
 
   getLocation = async () => {
