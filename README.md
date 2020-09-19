@@ -10,6 +10,14 @@ This App is developed to help estimate area population in real time and make awa
 
 ![](assets/app-demo.gif)
 
+## Runing Local
+
+```console
+npm install --global expo-cli
+npm install --save
+expo start
+```
+
 ## Contributor
 
 [Hanpeng Wang](https://github.com/whpskg)
