@@ -18,3 +18,6 @@ npm install --save
 expo start
 ```
 
+## Contributor
+
+[Hanpeng Wang](https://github.com/whpskg)
