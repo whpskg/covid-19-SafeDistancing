@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 21941,
-  "expoServerNgrokUrl": "https://gp-ett.anonymous.covid-19-safedistancing.exp.direct",
-  "packagerNgrokUrl": "https://packager.gp-ett.anonymous.covid-19-safedistancing.exp.direct",
-  "ngrokPid": 21967,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null
 }
