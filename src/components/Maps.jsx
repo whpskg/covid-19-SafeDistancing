@@ -24,6 +24,7 @@ function Maps(props) {
   const mapRef = useRef();
 
   useEffect(() => {
+    console.log(props.coordinates);
     //Initial setup user location
     (() => {
       mapRef.current.animateToRegion(
@@ -54,7 +55,7 @@ function Maps(props) {
     api_services("getNearPoints", [
       location.latitude,
       location.longitude,
-      props.radius - 1000, // adjust for back end service query
+      props.radius - 3000, // adjust for back end service query
     ]).then((res) => {
       if (res.points === undefined) {
         props.setLoadingStatus(true, false);
